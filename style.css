@@ -2,15 +2,32 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
     height: 100%;
     line-height: 1.8;
-}
-
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
-    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url('img/Patternreframed.png');
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    /* background-attachment: fixed; */
+    height: 400px;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .logoMark {
@@ -21,8 +38,8 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('img/Patternreframed.png');
-  height: 100%;
+    background: transparent;
+    height: 100%;
 }
 
 .logo {
@@ -37,7 +54,7 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url('img/Patternreframed.png');
+    background: transparent;
 }
 
 .customTitle {
@@ -49,10 +66,14 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url('img/Patternreframed.png');
-    /* opacity: 0.78; */
+    background: transparent;
 }
 
+.content {
+    background: white;
+    margin: 0;
+    min-width: 100%;
+}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
