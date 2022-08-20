@@ -7,7 +7,7 @@ body, html {
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
-    min-height: 400px;
+    height: 400px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,8 +22,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('img/Patternreframed.png');
-  min-height: 100%;
-  /* opacity: 0.78; */
+  height: 100%;
 }
 
 .logo {
@@ -39,7 +38,6 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image: url('img/Patternreframed.png');
-    /* opacity: 0.78; */
 }
 
 .customTitle {
