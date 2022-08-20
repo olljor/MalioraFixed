@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MELIORA</title>
+<link rel = "icon" href = "/img/meliora-logo-mark-white.png" type = "image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home"><img class="w3-bar-item w3-button logoMark" src="/img/meliora-logo-mark-black.png" alt=""></a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <img class="logo" src="/img/meliora-logo-white.png" alt="">
+  </div>
+</div>
+
+<!-- Container (About Section) ¤ change Latin to accurate -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p class="w3-center"><em>MELIORA RECORDINGS</em></p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias sapiente porro tempore provident libero. Deserunt, odit voluptatibus velit dolor non explicabo fugiat modi dolore dignissimos amet numquam voluptate incidunt iure similique adipisci quasi in officiis quo quas esse id quaerat praesentium perferendis magni? Earum illum optio aut accusamus illo dolore at eos iusto facilis itaque similique sunt asperiores rem expedita, in molestiae. Dicta voluptates labore quis rerum asperiores beatae ullam deleniti, saepe obcaecati error ea aliquam assumenda, enim mollitia ex quos suscipit possimus quas atque molestias ducimus perferendis numquam, iste deserunt? Recusandae sunt ratione voluptatum error, tempora aspernatur voluptates saepe.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="w3-margin-right"></i>LVSN</b></p><br>
+      <img src="/img/lvsn_profil.jpg" class="w3-round w3-image" id="profil" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large profileText">
+      <p>It's 2018 a warm May evening in Sweden, the 20-year-old Linus Silfverlood and 22-year-old Viktor Nuorimaa has just created the electronic music group LVSN. Now, several years later LVSN has accumulated over 10M streams worldwide. They have proven themselves as the versatile and creative producers that they truly are. A mixture of music containing lyrics that can form a deep connection with the listener, to the upbeat songs that will capture your heart while dancing the night away. With their exceptional array of different genres as seen in their music, LVSN has built an impressive music catalog including singles such as “Stolen Kisses” ft. ZANA and “Eyes on You” together with Lü, Cat Mode and The High. Their single “Blue Lagoon” with FIXL ft. Finn Kleffmann has accumulated over 2M streams. This is just the beginning, and the story continues...</p>
+    </div>
+  </div>
+</div>
+
+<!-- Stats ¤ change to something accurate -->
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">225 000</span><br>
+        Monthly listeners 
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">14+</span><br>
+        Partners
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150M+</span><br>
+        Revenue
+    </div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide customTitle">PORTFOLIO</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+  <h3 class="w3-center">Releases</h3>
+  <p class="w3-center"><em>Lorem ipsum dolor sit amet consectetur adipisicing.<br> Click on the images to make them bigger</em></p><br>
+
+
+  <!-- Links will be a button -->
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e0251f406adcd707b762b77b895" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://open.spotify.com/album/57nS0f2WiZk3m0RwLQxtWi?highlight=spotify:track:6aQtasf3Q6JZIBHCWXsyej">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e021de087380a30714939b9b8f9" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://open.spotify.com/album/3eLQNlYZGFMmQPccszHgv1?highlight=spotify:track:3x3GjFAKCsgcyoTrFJH00g">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e027eddeb2f753d0c78fc07ad0a" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="https://open.spotify.com/album/3mLgso7B17qBhNNjxXO1CH?highlight=spotify:track:53RO3QVUwSqY1PP4Dtwo4q">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e02f3739b165b00e9f3e3e8b7bd" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Dancing">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e027bae40a993f8170450c23f90" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Eyes on You">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e0242680242a0f13913e6bf7a60" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="End of Me">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e02f23155831b7c83ffb30a5e68" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="So Good">
+    </div>
+
+    <div class="w3-col m3">
+      <img src="https://i.scdn.co/image/ab67616d00001e02c036513ae750f759f2d0bf78" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Just Like That">
+    </div>
+    <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with CONTACT Text -->
+<div class="bgimg-3 w3-display-container">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide customTitle">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Wanna Collab</h3>
+  <p class="w3-center"><em>We would love to work with you!</em></p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="/img/meliora-logotype-black.png" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Borås, Sweden<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
+      </div>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-right w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+      <div class="w3-xlarge w3-section">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-linkedin w3-hover-opacity"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <img src="/img/meliora-logo-white.png" class="w3-image w3-round" style="height: 40px;">
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+</body>
+</html>
