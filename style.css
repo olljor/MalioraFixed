@@ -7,6 +7,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 body:after{
     content:"";
     position:fixed; /* stretch a fixed position to the whole screen */
@@ -21,13 +22,11 @@ body:after{
     background-size: cover;
     background-image: url('img/Patternreframed.png');
 }
+
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
-    /* background-attachment: fixed; */
+    background: transparent;
     height: 400px;
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 
 .logoMark {
@@ -38,7 +37,6 @@ body:after{
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background: transparent;
     height: 100%;
 }
 
@@ -51,22 +49,9 @@ body:after{
     width: 75%;
 }
 
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background: transparent;
-}
-
 .customTitle {
     background-color: black;
     padding: 7px;
-}
-
-
-
-/* Third image (Contact) */
-.bgimg-3 {
-    background: transparent;
 }
 
 .content {
@@ -78,8 +63,8 @@ body:after{
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-@media only screen and (max-device-width: 768px) {
-    .logo {
-        width: 100%;
+@media only screen and (max-device-width: 768px) {    
+    .logoBox {
+        width: 125%;
     }
 }
