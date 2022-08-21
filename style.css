@@ -65,6 +65,9 @@ body:after{
 
 @media only screen and (max-device-width: 768px) {    
     .logoBox {
-        width: 125%;
+        width: 100%;
+    }
+    .logo {
+        width: 90%;
     }
 }
